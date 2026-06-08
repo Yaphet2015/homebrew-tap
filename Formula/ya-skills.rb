@@ -11,7 +11,7 @@ class YaSkills < Formula
   def install
     libexec.install "yk"
     pkgshare.install "skills"
-    bin.write_env_script libexec/"yk", YA_SKILLS_CATALOG_DIR: pkgshare/"skills"
+    (bin/"yk").write_env_script libexec/"yk", YA_SKILLS_CATALOG_DIR: pkgshare/"skills"
   end
 
   test do
