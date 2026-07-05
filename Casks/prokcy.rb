@@ -1,13 +1,13 @@
 cask "prokcy" do
-  version "1.8.15"
+  version "1.8.16"
 
   on_arm do
-    sha256 "6ca27748a49d1f990df85745a6f3f5a502f822ae3c7872601ce4efe1fcae2753"
+    sha256 "d6e2db83425f1bbdc8fe058b348d391b57e7f6e7bb605ef329e6de93866302b0"
 
     url "https://github.com/Yaphet2015/Prokcy/releases/download/v#{version}/Prokcy-v#{version}-mac-arm64.dmg"
   end
   on_intel do
-    sha256 "2fa53f2b19326e7a5f7cf374ae8dfe490bd1e94bfe9ee5097f1af8bdc14271b0"
+    sha256 "585577868582dc6d740dca1ffecdf75c1c9a74491d13eddb7e3c9b69619ba34b"
 
     url "https://github.com/Yaphet2015/Prokcy/releases/download/v#{version}/Prokcy-v#{version}-mac-x64.dmg"
   end
