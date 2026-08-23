@@ -16,7 +16,7 @@ class YaSkills < Formula
   end
 
   test do
-    assert_match "0.7.0", shell_output("#{bin}/yk --version")
+    assert_match "0.8.0", shell_output("#{bin}/yk --version")
     assert_match "pbench", shell_output("#{bin}/yk list")
   end
 end
