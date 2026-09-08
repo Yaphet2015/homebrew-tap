@@ -2,7 +2,7 @@ class YaSkills < Formula
   desc "Personal skill repository and yk CLI"
   homepage "https://github.com/Yaphet2015/ya-skills"
   url "https://github.com/Yaphet2015/ya-skills/releases/download/v0.17.0/ya-skills-v0.17.0-macos-arm64.tar.gz"
-  sha256 "a3185a573c0d5b78ae4f70a87cbe9d057102471d74eed5c0d694edd06bde0c69"
+  sha256 "126cb5a7f07066e7b008632a50f2ed57a5bcf319112c07d094b86f956a0c0539"
   license :cannot_represent
 
   depends_on arch: :arm64
