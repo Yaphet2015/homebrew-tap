@@ -1,8 +1,8 @@
 class YaSkills < Formula
   desc "Personal skill repository and yk CLI"
   homepage "https://github.com/Yaphet2015/ya-skills"
-  url "https://github.com/Yaphet2015/ya-skills/releases/download/v2.5.0/ya-skills-v2.5.0-macos-arm64.tar.gz"
-  sha256 "018f2578169e9991d5ffa1d9f30d5fd25332d023c193872b402ac50decc4e865"
+  url "https://github.com/Yaphet2015/ya-skills/releases/download/v2.5.1/ya-skills-v2.5.1-macos-arm64.tar.gz"
+  sha256 "815dfdbff0ad28101aefb9a085f97307f27c12f7105a6dc334b4da6bea4d3ff2"
   license :cannot_represent
 
   depends_on arch: :arm64
@@ -15,7 +15,7 @@ class YaSkills < Formula
   end
 
   test do
-    assert_match "2.5.0", shell_output("#{bin}/yk --version")
+    assert_match "2.5.1", shell_output("#{bin}/yk --version")
     assert_match "pbench", shell_output("#{bin}/yk list")
     assert_match "computer-use", shell_output("#{bin}/yk list")
   end
